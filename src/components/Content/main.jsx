@@ -1,3 +1,4 @@
+import { Instagram, Linkedin, Phone } from 'lucide-react';
 const Main = () => {
   return (
     <main className=' w-full h-1/2 mt-24 flex flex-col items-center sm:mt-28'>
@@ -17,7 +18,7 @@ const Main = () => {
             href=''
             className=' w-full h-full text-[#FC6736] flex items-center justify-center'
           >
-            T
+            <Phone />
           </a>
         </li>
         <li className=' h-20 w-20 bg-[#0C2D57] rounded'>
@@ -25,7 +26,7 @@ const Main = () => {
             href=''
             className=' w-full h-full text-[#FC6736] flex items-center justify-center'
           >
-            I
+            <Instagram />
           </a>
         </li>
         <li className=' h-20 w-20 bg-[#0C2D57] rounded'>
@@ -33,7 +34,7 @@ const Main = () => {
             href=''
             className=' w-full h-full text-[#FC6736] flex items-center justify-center'
           >
-            L
+            <Linkedin />
           </a>
         </li>
       </ul>
